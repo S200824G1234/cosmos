@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    margin: 0 auto;
+}
+.a1{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/image\ header.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.a2{
+    width: 100%;
+    height: 1000px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding:  5% 10%;
+}
+.a3{
+    width: 100%;
+    height: 600px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding:  5% 10%;
+}
+.a4{
+    width: 100%;
+    height: 1200px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding:  2% 5%;
+}
+.a5{
+    width: 100%;
+    height: 500px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding:  2% 5%;
+}
+.a6{
+    width: 100%;
+    height: 300px;
+    background: rgb(121, 80, 34);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.h0{
+    width: 50%;
+    color: #000000;
+    font-size: 200%;
+}
+.hh0{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding:  2% 5%;
+}
+.hh1{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.hh2{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 300%;
+}
+.hh3{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 300%;
+    padding: 0% 25%;
+}
+.hh4{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.hh5{
+    width: 50%;
+    color: #fff;
+    font-size: 100%;
+}
+.hh6{
+    width: 100%;
+    color: #fff;
+    font-size: 300%;
+    text-align: center;
+}
+.hh7{
+    width: 100%;
+    color: #fff;
+    font-size: 200%;
+}
+.o1{
+    width: 85%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.o2{
+    width: 25%;
+    height: 500px;
+}
+.o3{
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.o4{
+    width: 15%;
+    height: 200px;
+    background: rgb(158, 110, 66);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.o5{
+    width: 25%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 3% 2%;
+}
+.o6{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.o7{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+}
+.p1{
+    width: 90%;
+    color: #fff;
+}
+.p2{
+    color: #fff;
+}
+.p3{
+    width: 90%;
+    color: #fff;
+    text-align: center;
+    padding: 0% 25%;
+}
+.p5{
+    color: #fff;
+}
+.img0{
+    width: 100%;
+    top: 100px;
+    position: absolute;
+    animation: anim1 2s linear forwards;
+
+}
+@keyframes anim1{
+    100%{
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+}
+.img2{
+    width: 100%;
+    height: 450px;
+}
+.img3{
+    width: 100%;
+    height: 200px;
+}
+.img6{
+    width: 50%;
+    height: 50px;
+}
+.t1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.t2{
+    width: 70%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.t3{
+    width: 70%;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+.t4{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0% 80% 0% 0%;
+}
+.t5{
+    color: #fff;
+}
+.t6{
+    color: #fff;
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.k1{
+    width: 20%;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.k2{
+    width: 20%;
+    height: 40px;
+    background: #000000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.n1{
+    width: 50%;
+    height: 50px;
+}
+.n2{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.i1{
+    width: 40%;
+    height: 50px;
+    border-radius: 50px;
+    margin: 0% 0% 0% 25%;
+}
+.b1{
+    width: 10%;
+    height: 50px;
+    border-radius: 50px;
+    margin: 0% 20% 0% 0%;
+    background: #000000;
+    color: #fff;
+}
+.d0{
+    text-align: center;
+}
+@media screen and (width<480px){
+    .a1{
+        width: 100%;
+        height: 960px;
+        background-image: url(../img/Group\ 2.png);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .a2{
+        width: 100%;
+        height: 1000px;
+        background: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .a3{
+        width: 100%;
+        height: 1200px;
+        background: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding:  5% 10%;
+    }
+    .a4{
+        width: 100%;
+        height: 3000px;
+        background: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding:  2% 5%;
+    }
+    .a5{
+        width: 100%;
+        height: 350px;
+        background: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding:  2% 5%;
+    }
+    .o2{
+        width: 80%;
+        height: 200px;
+    }
+    .o3{
+        width: 90%;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .o4{
+        width: 70%;
+        height: 200px;
+        background: rgb(158, 110, 66);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .img2{
+        width: 100%;
+        height: 150px;
+    }
+    .p1{
+        width: 80%;
+        color: #fff;
+    } 
+    .p3{
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        padding: 0% 0%;
+    }
+    .h0{
+        width: 100%;
+        text-align: center;
+        color: #000000;
+        font-size: 200%;
+    }
+    .hh0{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        color: #fff;
+    }
+    .hh2{
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        font-size: 200%;
+    }
+    .hh3{
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        font-size: 250%;
+        padding: 0% 0%;
+    }
+    .hh5{
+        text-align: center;
+    }
+    .hh6{
+        width: 100%;
+        color: #fff;
+        font-size: 200%;
+        text-align: center;
+    }
+    .n1{
+        width: 100%;
+        height: 50px;
+    }
+    .n2{
+        width: 100%;
+        height: 110px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .k1{
+        width: 28%;
+    }
+    .k2{
+        width: 50%;
+    }
+    .t4{
+        width: 20%;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0% 80% 0% 0%;
+         display: none;
+    }
+    .t1{
+        flex-wrap: wrap;
+    }
+    .i1{
+        width: 90%;
+        height: 50px;
+        border-radius: 50px;
+        margin: 0% 0% 0% 0%;
+    }
+    .b1{
+        width: 90%;
+        height: 50px;
+        border-radius: 50px;
+        margin: 0% 0% 0% 0%;
+        background: #000000;
+        color: #fff;
+    }
+}
